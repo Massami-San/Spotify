@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #000000;
+    color: #F0F0F0;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+
+
+}
+
+.logo {
+    width: 35px;
+    font-size: 25px;
+}
+
+
+.but-Home {
+    background-color: #1F1F1F;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    width: 30px;
+    color: white;
+
+}
+
+main {
+    display: flex;
+    gap: 3px;
+    width: 100%;
+}
+
+.left {
+    width: 25%;
+    background: #121212;
+    min-height: 100vh;
+    border-radius: 10px;
+    margin: 8px;
+    display: grid;
+}
+
+.rigth {
+    flex: 1;
+    background: #121212;
+    border-radius: 10px;
+    margin: 8px 8px 8px 0;
+}
+
+.Playlist {
+    background: #1F1F1F;
+}
+
+.Podcast {
+    background: #1F1F1F;
+}
