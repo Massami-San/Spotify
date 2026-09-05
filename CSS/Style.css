@@ -32,6 +32,8 @@ header {
     height: 48px;
     background-color: #1f1f1f;
     border-radius: 50%;
+    border: none;
+    cursor: pointer;
     color: #fff;
     font-size: 18px;
 }
@@ -141,25 +143,87 @@ main {
     min-height: 100vh;
     border-radius: 10px;
     margin: 8px;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.sbb{
+.sbb {
     display: flex;
+    justify-content: space-between;
     font-size: 14px;
     margin: 20px;
+    gap: 10px;
 }
 
-.create{
+.create {
     height: 25px;
     width: 63px;
     border-radius: 22px;
     border: none;
-    position: relative;
-    left: 245px ;
     background-color: #1F1F1F;
     color: white;
     cursor: pointer;
+}
+
+.Playlist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #1F1F1F;
+    width: 95%;
+    height: 145px;
+    font-size: 14px;
+    border-radius: 22px;
+    padding: 20px;
+    margin: 0 7px 8px 7px;
+}
+
+#button-play {
+    width: 155px;
+    height: 35px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 28px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.Podcast {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #1F1F1F;
+    width: 95%;
+    height: 145px;
+    font-size: 14px;
+    border-radius: 22px;
+    padding: 20px;
+    margin: 0 7px 8px 7px;
+}
+
+#button-podcast{
+    width: 155px;
+    height: 35px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 28px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#footer-side {
+    color: #b3b3b3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 12px;
+    margin: 20px 0 0 20px;
 }
 
 .rigth {
@@ -167,12 +231,4 @@ main {
     background: #121212;
     border-radius: 10px;
     margin: 8px 8px 8px 0;
-}
-
-.Playlist {
-    background: #1F1F1F;
-}
-
-.Podcast {
-    background: #1F1F1F;
 }
