@@ -14,46 +14,51 @@
         <div class="logo">
             <i class="fa-brands fa-spotify"></i>
         </div>
-        <button class="but-Home"><i class="fa-regular fa-house"></i></button>
-        <input type="text" placeholder="O que você quer ouvir?">
-        <div>
+        <button class="but-Home" aria-label="Página inicial"><i class="fa-solid fa-house"></i></button>
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="main-input" placeholder="O que você quer ouvir?">
+        </div>
+        <nav class="main-nav">
             <a>Premium</a>
             <a>Suporte</a>
             <a>Baixar</a>
-        </div>
-        <div>
+        </nav>
+        <div class="account-actions">
             <a>Inscrever-se</a>
-            <button>Entrar</button>
+            <button class="login-button">Entrar</button>
         </div>
     </header>
 
     <main>
-    <section class="left">
-        <h2>Sua Biblioteca</h2>
-        <button><i class="fa-solid fa-plus"></i>Criar</button>
-        <section class="Playlist">
-            <h2>Crie sua primeira playlist</h2>
-            <p>É fácil, vamos te ajudar.</p>
-            <button>Criar Playlist</button>
+        <section class="left">
+            <div class="sbb">
+                <h2>Sua Biblioteca</h2>
+                <button class="create"><i class="fa-solid fa-plus"></i>Criar</button>
+            </div>
+            <section class="Playlist">
+                <h2>Crie sua primeira playlist</h2>
+                <p>É fácil, vamos te ajudar.</p>
+                <button>Criar Playlist</button>
+            </section>
+
+            <section class="Podcast">
+                <h2>Que tal seguir um podcast novo?</h2>
+                <p>Avisaremos você sobre novos episódios.</p>
+                <button>Explorar Podcasts</button>
+            </section>
+            <a>Legal</a>
+            <a>Segurança e Centro de Privacidade</a>
+            <a>Política de Privacidade</a>
+            <a>Cookies</a>
+            <a>Sobre Anúncios</a>
+            <a>Acessibilidade</a>
         </section>
 
-        <section class="Podcast">
-            <h2>Que tal seguir um podcast novo?</h2>
-            <p>Avisaremos você sobre novos episódios.</p>
-            <button>Explorar Podcasts</button>
-        </section>
-        <a>Legal</a>
-        <a>Segurança e Centro de Privacidade</a>
-        <a>Política de Privacidade</a>
-        <a>Cookies</a>
-        <a>Sobre Anúncios</a>
-        <a>Acessibilidade</a>
-    </section>
-
-    <section class="rigth">
-        <h3>Músicas em alta</h3>
+        <section class="rigth">
+            <h3>Músicas em alta</h3>
         </section>
     </main>
 </body>
-
+<script src="../js/Script.js"></script>
 </html>
